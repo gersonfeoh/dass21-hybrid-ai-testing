@@ -1,0 +1,35 @@
+{
+ "kill_121": {
+  "A1": 2,
+  "A3": 18,
+  "B5": 1
+ },
+ "missed_all_seeds": {
+  "A1": {
+   "ids": [],
+   "families": {}
+  },
+  "A3": {
+   "ids": [],
+   "families": {}
+  },
+  "B5": {
+   "ids": [],
+   "families": {}
+  }
+ },
+ "valid_llm_tests_seeds_1_30": {
+  "n": 100,
+  "depression_category_counts": [
+   76,
+   9,
+   6,
+   4,
+   5
+  ],
+  "severe_or_above_without_critical": 0,
+  "extremely_severe_without_critical": 0,
+  "flag_target_valid": 3,
+  "flag_target_met": 0
+ }
+}

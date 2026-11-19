@@ -1,0 +1,19 @@
+{
+ "runtime": "Google Colab, NVIDIA T4 GPU",
+ "ollama_version": "0.40.16",
+ "ollama_version_source": "notebook cell output \"ollama version is 0.40.16\" (read 20 Nov 2026)",
+ "models": [
+  {
+   "name": "bge-m3:latest",
+   "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+   "parameter_size": "566.70M",
+   "quantization": "F16"
+  },
+  {
+   "name": "qwen2.5:7b-instruct",
+   "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+   "parameter_size": "7.6B",
+   "quantization": "Q4_K_M"
+  }
+ ]
+}

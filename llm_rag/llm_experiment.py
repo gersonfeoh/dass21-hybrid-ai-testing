@@ -23,14 +23,17 @@ import pipeline as PL
 
 
 def generate(a, out):
-    ret = PL.Retriever(a.base_url, a.embed_model if a.embed_model != 'none' else None)
-    prompts = [PL.build_prompt(ret, t) for t in PL.TARGETS]
     log_path = os.path.join(out, 'llm_log.jsonl')
     done = set()
     if os.path.exists(log_path):                      # resume after a disconnected session
         for l in open(log_path):
             r = json.loads(l); done.add((r['temperature'], r['seed'], r['target_index']))
     calls = [(0.0, 0)] + [(0.7, s) for s in range(1, max(a.seeds, a.pool_samples) + 1)]
+    if all((t, s, i) in done for t, s in calls for i in range(len(PL.TARGETS))):
+        # every call is already logged: re-validate and re-measure only (no LLM or embedding call)
+        return [json.loads(l) for l in open(log_path, encoding='utf-8')]
+    ret = PL.Retriever(a.base_url, a.embed_model if a.embed_model != 'none' else None)
+    prompts = [PL.build_prompt(ret, t) for t in PL.TARGETS]
     with open(log_path, 'a', encoding='utf-8') as f:
         for temp, seed in calls:
             for ti, (t, (prompt, rids)) in enumerate(zip(PL.TARGETS, prompts)):
@@ -184,6 +187,10 @@ def main():
     for c, rr in by.items():
         desc[c]['n'] = len(rr); desc[c]['seeds_with_all_12_obligations'] = sum(r['obligations'] == 12 for r in rr)
         desc[c]['empty_suites'] = sum(r.get('empty_suite', False) for r in rr)
+    prev = os.path.join(a.out, 'llm_metrics.json')
+    if isinstance(meta.get('ollama_models'), str) and os.path.exists(prev):
+        meta['ollama_models'] = json.load(open(prev))['meta'].get('ollama_models')
+        meta['remeasured_offline'] = True
     meta['finished'] = time.strftime('%Y-%m-%d %H:%M:%S'); meta['s2_included'] = ev.with_s2
     json.dump(dict(meta=meta, metrics=metric), open(os.path.join(a.out, 'llm_metrics.json'), 'w'), indent=1)
     json.dump(dict(meta=meta, runs=res), open(os.path.join(a.out, 'evaluation_llm.json'), 'w'), indent=0)

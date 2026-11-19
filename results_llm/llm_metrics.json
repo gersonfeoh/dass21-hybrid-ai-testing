@@ -1,0 +1,117 @@
+{
+ "meta": {
+  "model": "qwen2.5:7b-instruct",
+  "embed_model": "bge-m3",
+  "seeds": 30,
+  "pool_samples": 10,
+  "budget": 20000,
+  "pop_size": 50,
+  "started": "2026-11-20 02:42:41",
+  "ollama_models": [
+   {
+    "name": "bge-m3:latest",
+    "model": "bge-m3:latest",
+    "modified_at": "2026-11-19T17:19:19.431348543Z",
+    "size": 1157672605,
+    "digest": "7907646426070047a77226ac3e684fbbe8410524f7b4a74d02837e43f2146bab",
+    "details": {
+     "parent_model": "",
+     "format": "gguf",
+     "family": "bert",
+     "families": [
+      "bert"
+     ],
+     "parameter_size": "566.70M",
+     "quantization_level": "F16",
+     "context_length": 8192,
+     "embedding_length": 1024,
+     "runner": "ggml"
+    },
+    "capabilities": [
+     "embedding"
+    ]
+   },
+   {
+    "name": "qwen2.5:7b-instruct",
+    "model": "qwen2.5:7b-instruct",
+    "modified_at": "2026-11-19T17:19:05.97592722Z",
+    "size": 4683087332,
+    "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+    "details": {
+     "parent_model": "",
+     "format": "gguf",
+     "family": "qwen2",
+     "families": [
+      "qwen2"
+     ],
+     "parameter_size": "7.6B",
+     "quantization_level": "Q4_K_M",
+     "context_length": 32768,
+     "embedding_length": 3584,
+     "runner": "ggml"
+    },
+    "capabilities": [
+     "completion",
+     "tools"
+    ]
+   }
+  ],
+  "remeasured_offline": true,
+  "finished": "2026-11-20 02:42:58",
+  "s2_included": true
+ },
+ "metrics": {
+  "T0": {
+   "responses": 12,
+   "valid": 3,
+   "validity_rate": 0.25,
+   "oracle_agreement_rate": 0.3333333333333333,
+   "target_met_rate": 0.6666666666666666,
+   "traceability_precision": 1.0,
+   "cites_target_rate": 1.0,
+   "duplicate_rate": 0.08333333333333333,
+   "reject_reasons": {
+    "no_json": 0,
+    "invalid_json": 0,
+    "schema_or_domain": 8,
+    "duplicate": 1
+   },
+   "errors": 0,
+   "tokens_per_valid_test": 3475.6666666666665,
+   "seconds_per_valid_test": 81.80333333333333,
+   "cost_usd": 0.0,
+   "novel_kill_rate": 0.0,
+   "novel_kill_pools": [
+    "S1_eval",
+    "S1_eval_2nd",
+    "S2"
+   ]
+  },
+  "T07": {
+   "responses": 120,
+   "valid": 17,
+   "validity_rate": 0.14166666666666666,
+   "oracle_agreement_rate": 0.058823529411764705,
+   "target_met_rate": 0.17647058823529413,
+   "traceability_precision": 0.9411764705882353,
+   "cites_target_rate": 1.0,
+   "duplicate_rate": 0.11666666666666667,
+   "reject_reasons": {
+    "no_json": 0,
+    "invalid_json": 0,
+    "schema_or_domain": 89,
+    "duplicate": 14
+   },
+   "errors": 0,
+   "tokens_per_valid_test": 6214.117647058823,
+   "seconds_per_valid_test": 66.38411764705882,
+   "cost_usd": 0.0,
+   "novel_kill_rate": 0.0,
+   "novel_kill_pools": [
+    "S1_eval",
+    "S1_eval_2nd",
+    "S2"
+   ]
+  }
+ }
+}
