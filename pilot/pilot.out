@@ -1,0 +1,8 @@
+B2 pop 50 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 9.0, 'seconds': 12.145}
+B3 pop 50 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 12.0, 'seconds': 8.36}
+A1' pop 50 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 9.0, 'seconds': 8.89}
+A3' pop 50 {'train_ms': 0.9660194174757282, 'bcov': 0.8541666666666667, 'mcdc': 1.0, 'obligations': 10.0, 'seconds': 9.27}
+B2 pop 100 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 9.0, 'seconds': 12.075}
+B3 pop 100 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 12.0, 'seconds': 7.87}
+A1' pop 100 {'train_ms': 1.0, 'bcov': 1.0, 'mcdc': 1.0, 'obligations': 9.0, 'seconds': 8.879999999999999}
+A3' pop 100 {'train_ms': 0.9320388349514563, 'bcov': 0.8333333333333334, 'mcdc': 1.0, 'obligations': 10.0, 'seconds': 9.665}

@@ -1,0 +1,12 @@
+{
+  "name": "dass21-s2-subject",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Subject S2 for Article 2: verbatim platform scoring and triage logic",
+  "scripts": {
+    "test": "node test/oracle_test.js"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^10.1.1"
+  }
+}

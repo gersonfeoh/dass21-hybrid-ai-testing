@@ -1,0 +1,34 @@
+[
+ {
+  "id": "REQ-SCORE",
+  "text": "Each DASS-21 subscale score is the sum of its seven items (each item 0 to 3) multiplied by two, so scores are even values from 0 to 42. Depression items: 3, 5, 10, 13, 16, 17, 21. Anxiety items: 2, 4, 7, 9, 15, 19, 20. Stress items: 1, 6, 8, 11, 12, 14, 18."
+ },
+ {
+  "id": "REQ-BANDS",
+  "text": "Severity bands on the doubled score (Lovibond and Lovibond, 1995). Depression: Normal 0-9, Mild 10-13, Moderate 14-20, Severe 21-27, Extremely Severe 28+. Anxiety: Normal 0-7, Mild 8-9, Moderate 10-14, Severe 15-19, Extremely Severe 20+. Stress: Normal 0-14, Mild 15-18, Moderate 19-25, Severe 26-33, Extremely Severe 34+."
+ },
+ {
+  "id": "REQ-FLAG",
+  "text": "Platform requirement 6.2: the flag PERLU_PERHATIAN and a Crisis_Alerts entry are created automatically when the Depression category is Severe or Extremely Severe, or when item 10, 17, or 21 (hopelessness and worthlessness items) is scored 3."
+ },
+ {
+  "id": "REQ-GATE",
+  "text": "Platform requirement 6.3: access to the text and voice companions is granted only to students whose most recent DASS-21 result is Normal on all three subscales. Students who never completed DASS-21 are not eligible."
+ },
+ {
+  "id": "REQ-LATTICE",
+  "text": "Testing note (Article 1): because scores are even, a published odd cut-point c has no attainable score c-1 or c; boundary values must be the largest attainable score below c, L(c), and the smallest attainable score at or above c, U(c)."
+ },
+ {
+  "id": "REQ-MASK",
+  "text": "Testing note (Article 1): the flag is a disjunction of a category condition and an item condition; a test whose depression score reaches Severe may also set a critical item to 3, which hides faults in either condition. Each condition must be exercised alone."
+ },
+ {
+  "id": "REQ-ROTATE",
+  "text": "Testing note (Article 1): build item responses for a target score with a rotating filling order, so that the load moves to different items across test cases and item-mapping faults are detected."
+ },
+ {
+  "id": "TAX-FAULTS",
+  "text": "Fault taxonomy: threshold (cut-point shifted), scaling (wrong multiplier), item mapping (item counted on the wrong subscale), gate (eligibility rule wrong), flag (escalation rule wrong)."
+ }
+]

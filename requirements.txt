@@ -1,0 +1,8 @@
+jsonschema==4.26.0
+numpy==2.5.3
+pymoo==0.6.2
+rank-bm25==0.2.2
+scikit-learn==1.9.1
+scipy==1.18.1
+xgboost==3.4.1
+z3-solver==5.4.1.0

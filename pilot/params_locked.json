@@ -1,0 +1,16 @@
+{
+ "pop_size": 50,
+ "rule": "maximise the mean over B2, B3, A1prime, A3prime of the median training MS on pilot seeds 101-110, then the mean median boundary coverage",
+ "pilot_scores": {
+  "50": [
+   0.991504854368932,
+   0.9635416666666667
+  ],
+  "100": [
+   0.9830097087378641,
+   0.9583333333333334
+  ]
+ },
+ "other_parameters": "crossover 0.8 vector-uniform / 0.2 within-vector one-point; mutation as in ga.py; budget 20000 evaluations; B = 35",
+ "locked": "2026-11-20"
+}

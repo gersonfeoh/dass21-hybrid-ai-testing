@@ -1,0 +1,666 @@
+id,order,family,site,name,article1,equivalent,pool
+S1-001,1,threshold,thr:D1,D cut 1 -4,0,0,train
+S1-002,1,threshold,thr:D1,D cut 1 -3,0,0,train
+S1-003,1,threshold,thr:D1,D cut 1 -2,1,0,train
+S1-004,1,threshold,thr:D1,D cut 1 -1,1,1,equivalent
+S1-005,1,threshold,thr:D1,D cut 1 +1,1,0,train
+S1-006,1,threshold,thr:D1,D cut 1 +2,1,0,train
+S1-007,1,threshold,thr:D1,D cut 1 +3,0,0,train
+S1-008,1,threshold,thr:D2,D cut 2 -3,0,0,train
+S1-009,1,threshold,thr:D2,D cut 2 -2,1,0,train
+S1-010,1,threshold,thr:D2,D cut 2 -1,1,1,equivalent
+S1-011,1,threshold,thr:D2,D cut 2 +1,1,0,train
+S1-012,1,threshold,thr:D2,D cut 2 +2,1,0,train
+S1-013,1,threshold,thr:D2,D cut 2 +3,0,0,train
+S1-014,1,threshold,thr:D2,D cut 2 +4,0,0,train
+S1-015,1,threshold,thr:D3,D cut 3 -4,0,0,eval
+S1-016,1,threshold,thr:D3,D cut 3 -3,0,0,eval
+S1-017,1,threshold,thr:D3,D cut 3 -2,1,0,eval
+S1-018,1,threshold,thr:D3,D cut 3 -1,1,0,eval
+S1-019,1,threshold,thr:D3,D cut 3 +1,1,1,equivalent
+S1-020,1,threshold,thr:D3,D cut 3 +2,1,0,eval
+S1-021,1,threshold,thr:D3,D cut 3 +3,0,0,eval
+S1-022,1,threshold,thr:D3,D cut 3 +4,0,0,eval
+S1-023,1,threshold,thr:D4,D cut 4 -4,0,0,train
+S1-024,1,threshold,thr:D4,D cut 4 -3,0,0,train
+S1-025,1,threshold,thr:D4,D cut 4 -2,1,0,train
+S1-026,1,threshold,thr:D4,D cut 4 -1,1,1,equivalent
+S1-027,1,threshold,thr:D4,D cut 4 +1,1,0,train
+S1-028,1,threshold,thr:D4,D cut 4 +2,1,0,train
+S1-029,1,threshold,thr:D4,D cut 4 +3,0,0,train
+S1-030,1,threshold,thr:D4,D cut 4 +4,0,0,train
+S1-031,1,threshold,thr:A1,A cut 1 -4,0,0,eval
+S1-032,1,threshold,thr:A1,A cut 1 -3,0,0,eval
+S1-033,1,threshold,thr:A1,A cut 1 -2,1,0,eval
+S1-034,1,threshold,thr:A1,A cut 1 -1,1,1,equivalent
+S1-035,1,threshold,thr:A1,A cut 1 +1,1,0,eval
+S1-036,1,threshold,thr:A2,A cut 2 -1,1,1,equivalent
+S1-037,1,threshold,thr:A2,A cut 2 +1,1,0,train
+S1-038,1,threshold,thr:A2,A cut 2 +2,1,0,train
+S1-039,1,threshold,thr:A2,A cut 2 +3,0,0,train
+S1-040,1,threshold,thr:A2,A cut 2 +4,0,0,train
+S1-041,1,threshold,thr:A3,A cut 3 -4,0,0,eval
+S1-042,1,threshold,thr:A3,A cut 3 -3,0,0,eval
+S1-043,1,threshold,thr:A3,A cut 3 -2,1,0,eval
+S1-044,1,threshold,thr:A3,A cut 3 -1,1,0,eval
+S1-045,1,threshold,thr:A3,A cut 3 +1,1,1,equivalent
+S1-046,1,threshold,thr:A3,A cut 3 +2,1,0,eval
+S1-047,1,threshold,thr:A3,A cut 3 +3,0,0,eval
+S1-048,1,threshold,thr:A3,A cut 3 +4,0,0,eval
+S1-049,1,threshold,thr:A4,A cut 4 -4,0,0,eval
+S1-050,1,threshold,thr:A4,A cut 4 -3,0,0,eval
+S1-051,1,threshold,thr:A4,A cut 4 -2,1,0,eval
+S1-052,1,threshold,thr:A4,A cut 4 -1,1,1,equivalent
+S1-053,1,threshold,thr:A4,A cut 4 +1,1,0,eval
+S1-054,1,threshold,thr:A4,A cut 4 +2,1,0,eval
+S1-055,1,threshold,thr:A4,A cut 4 +3,0,0,eval
+S1-056,1,threshold,thr:A4,A cut 4 +4,0,0,eval
+S1-057,1,threshold,thr:S1,S cut 1 -4,0,0,train
+S1-058,1,threshold,thr:S1,S cut 1 -3,0,0,train
+S1-059,1,threshold,thr:S1,S cut 1 -2,1,0,train
+S1-060,1,threshold,thr:S1,S cut 1 -1,1,0,train
+S1-061,1,threshold,thr:S1,S cut 1 +1,1,1,equivalent
+S1-062,1,threshold,thr:S1,S cut 1 +2,1,0,train
+S1-063,1,threshold,thr:S1,S cut 1 +3,0,0,train
+S1-064,1,threshold,thr:S2,S cut 2 -3,0,0,train
+S1-065,1,threshold,thr:S2,S cut 2 -2,1,0,train
+S1-066,1,threshold,thr:S2,S cut 2 -1,1,0,train
+S1-067,1,threshold,thr:S2,S cut 2 +1,1,1,equivalent
+S1-068,1,threshold,thr:S2,S cut 2 +2,1,0,train
+S1-069,1,threshold,thr:S2,S cut 2 +3,0,0,train
+S1-070,1,threshold,thr:S2,S cut 2 +4,0,0,train
+S1-071,1,threshold,thr:S3,S cut 3 -4,0,0,train
+S1-072,1,threshold,thr:S3,S cut 3 -3,0,0,train
+S1-073,1,threshold,thr:S3,S cut 3 -2,1,0,train
+S1-074,1,threshold,thr:S3,S cut 3 -1,1,1,equivalent
+S1-075,1,threshold,thr:S3,S cut 3 +1,1,0,train
+S1-076,1,threshold,thr:S3,S cut 3 +2,1,0,train
+S1-077,1,threshold,thr:S3,S cut 3 +3,0,0,train
+S1-078,1,threshold,thr:S3,S cut 3 +4,0,0,train
+S1-079,1,threshold,thr:S4,S cut 4 -4,0,0,train
+S1-080,1,threshold,thr:S4,S cut 4 -3,0,0,train
+S1-081,1,threshold,thr:S4,S cut 4 -2,1,0,train
+S1-082,1,threshold,thr:S4,S cut 4 -1,1,1,equivalent
+S1-083,1,threshold,thr:S4,S cut 4 +1,1,0,train
+S1-084,1,threshold,thr:S4,S cut 4 +2,1,0,train
+S1-085,1,threshold,thr:S4,S cut 4 +3,0,0,train
+S1-086,1,threshold,thr:S4,S cut 4 +4,0,0,train
+S1-087,1,scaling,scale:all,factor 1 on all subscales,1,0,train
+S1-088,1,scaling,scale:all,factor 3 on all subscales,0,0,train
+S1-089,1,scaling,scale:all,factor 4 on all subscales,1,0,train
+S1-090,1,scaling,scale:D,factor 1 on D only,0,0,eval
+S1-091,1,scaling,scale:D,factor 4 on D only,0,0,eval
+S1-092,1,scaling,scale:A,factor 1 on A only,0,0,train
+S1-093,1,scaling,scale:A,factor 4 on A only,0,0,train
+S1-094,1,scaling,scale:S,factor 1 on S only,0,0,train
+S1-095,1,scaling,scale:S,factor 4 on S only,0,0,train
+S1-096,1,mapping,item:1,item 1 S to D,1,0,train
+S1-097,1,mapping,item:1,item 1 S to A,1,0,train
+S1-098,1,mapping,item:2,item 2 A to D,1,0,eval
+S1-099,1,mapping,item:2,item 2 A to S,1,0,eval
+S1-100,1,mapping,item:3,item 3 D to A,1,0,train
+S1-101,1,mapping,item:3,item 3 D to S,1,0,train
+S1-102,1,mapping,item:4,item 4 A to D,1,0,eval
+S1-103,1,mapping,item:4,item 4 A to S,1,0,eval
+S1-104,1,mapping,item:5,item 5 D to A,1,0,train
+S1-105,1,mapping,item:5,item 5 D to S,1,0,train
+S1-106,1,mapping,item:6,item 6 S to D,1,0,eval
+S1-107,1,mapping,item:6,item 6 S to A,1,0,eval
+S1-108,1,mapping,item:7,item 7 A to D,1,0,train
+S1-109,1,mapping,item:7,item 7 A to S,1,0,train
+S1-110,1,mapping,item:8,item 8 S to D,1,0,train
+S1-111,1,mapping,item:8,item 8 S to A,1,0,train
+S1-112,1,mapping,item:9,item 9 A to D,1,0,train
+S1-113,1,mapping,item:9,item 9 A to S,1,0,train
+S1-114,1,mapping,item:10,item 10 D to A,1,0,eval
+S1-115,1,mapping,item:10,item 10 D to S,1,0,eval
+S1-116,1,mapping,item:11,item 11 S to D,1,0,train
+S1-117,1,mapping,item:11,item 11 S to A,1,0,train
+S1-118,1,mapping,item:12,item 12 S to D,1,0,train
+S1-119,1,mapping,item:12,item 12 S to A,1,0,train
+S1-120,1,mapping,item:13,item 13 D to A,1,0,eval
+S1-121,1,mapping,item:13,item 13 D to S,1,0,eval
+S1-122,1,mapping,item:14,item 14 S to D,1,0,train
+S1-123,1,mapping,item:14,item 14 S to A,1,0,train
+S1-124,1,mapping,item:15,item 15 A to D,1,0,train
+S1-125,1,mapping,item:15,item 15 A to S,1,0,train
+S1-126,1,mapping,item:16,item 16 D to A,1,0,train
+S1-127,1,mapping,item:16,item 16 D to S,1,0,train
+S1-128,1,mapping,item:17,item 17 D to A,1,0,eval
+S1-129,1,mapping,item:17,item 17 D to S,1,0,eval
+S1-130,1,mapping,item:18,item 18 S to D,1,0,train
+S1-131,1,mapping,item:18,item 18 S to A,1,0,train
+S1-132,1,mapping,item:19,item 19 A to D,1,0,train
+S1-133,1,mapping,item:19,item 19 A to S,1,0,train
+S1-134,1,mapping,item:20,item 20 A to D,1,0,train
+S1-135,1,mapping,item:20,item 20 A to S,1,0,train
+S1-136,1,mapping,item:21,item 21 D to A,1,0,train
+S1-137,1,mapping,item:21,item 21 D to S,1,0,train
+S1-138,1,gate,gate:comb,gate OR over subscales,1,0,eval
+S1-139,1,gate,gate:comb,gate always open,0,0,eval
+S1-140,1,gate,gate:polarity,gate negated,0,0,train
+S1-141,1,gate,gate:level,gate up to Mild,1,0,train
+S1-142,1,gate,gate:level,gate up to Moderate,0,0,train
+S1-143,1,gate,gate:omitD,gate ignores D,1,0,eval
+S1-144,1,gate,gate:omitA,gate ignores A,1,0,train
+S1-145,1,gate,gate:omitS,gate ignores S,1,0,train
+S1-146,1,gate,gate:onlyD,gate uses D only,0,0,train
+S1-147,1,gate,gate:onlyA,gate uses A only,0,0,train
+S1-148,1,gate,gate:onlyS,gate uses S only,0,0,eval
+S1-149,1,flag,flag:catlevel,flag category from Moderate,1,0,train
+S1-150,1,flag,flag:catlevel,flag category Extremely Severe only,1,0,train
+S1-151,1,flag,flag:catsub,flag category on any subscale,1,0,eval
+S1-152,1,flag,flag:catsub,flag category on D or A,0,0,eval
+S1-153,1,flag,flag:catsub,flag category on D or S,0,0,eval
+S1-154,1,flag,flag:catsub,flag category on A instead of D,0,0,eval
+S1-155,1,flag,flag:catsub,flag category on S instead of D,0,0,eval
+S1-156,1,flag,flag:comb,flag conjunction,1,0,train
+S1-157,1,flag,flag:comb,flag without item rule,1,0,train
+S1-158,1,flag,flag:comb,flag without category rule,1,0,train
+S1-159,1,flag,flag:itemmin,flag item value from 2,1,0,train
+S1-160,1,flag,flag:item10,flag ignores item 10,1,0,eval
+S1-161,1,flag,flag:item17,flag ignores item 17,1,0,train
+S1-162,1,flag,flag:item21,flag ignores item 21,1,0,train
+S1-163,1,flag,flag:item10,flag reads item 9 instead of 10,0,0,eval
+S1-164,1,flag,flag:item17,flag reads item 16 instead of 17,0,0,train
+S1-165,1,flag,flag:item21,flag reads item 20 instead of 21,0,0,train
+S1-2-001,2,flag,flag:catlevel|flag:item21,flag category from Moderate + flag ignores item 21,0,0,train
+S1-2-002,2,flag,flag:catsub|flag:item10,flag category on any subscale + flag ignores item 10,0,0,eval
+S1-2-003,2,flag,flag:comb|flag:item10,flag without category rule + flag ignores item 10,0,0,cross
+S1-2-004,2,flag,flag:item10|flag:itemmin,flag item value from 2 + flag ignores item 10,0,0,cross
+S1-2-005,2,flag,flag:catlevel|flag:item17,flag category from Moderate + flag ignores item 17,0,0,train
+S1-2-006,2,flag,flag:catlevel|flag:item17,flag category Extremely Severe only + flag ignores item 17,0,0,train
+S1-2-007,2,flag,flag:comb|flag:item21,flag conjunction + flag ignores item 21,0,0,train
+S1-2-008,2,flag,flag:comb|flag:item17,flag conjunction + flag ignores item 17,0,0,train
+S1-2-009,2,flag,flag:catsub|flag:comb,flag category on any subscale + flag without category rule,0,0,cross
+S1-2-010,2,flag,flag:catsub|flag:comb,flag category on any subscale + flag without item rule,0,0,cross
+S1-2-011,2,flag,flag:comb|flag:itemmin,flag without category rule + flag item value from 2,0,0,train
+S1-2-012,2,flag,flag:comb|flag:itemmin,flag conjunction + flag item value from 2,0,0,train
+S1-2-013,2,flag,flag:comb|flag:item10,flag conjunction + flag ignores item 10,0,0,cross
+S1-2-014,2,flag,flag:comb|flag:item21,flag without item rule + flag ignores item 21,0,0,train
+S1-2-015,2,flag,flag:catlevel|flag:item21,flag category Extremely Severe only + flag ignores item 21,0,0,train
+S1-2-016,2,flag,flag:comb|flag:item17,flag without item rule + flag ignores item 17,0,0,train
+S1-2-017,2,flag,flag:comb|flag:item21,flag without category rule + flag ignores item 21,0,0,train
+S1-2-018,2,flag,flag:item21|flag:itemmin,flag item value from 2 + flag ignores item 21,0,0,train
+S1-2-019,2,flag,flag:catlevel|flag:catsub,flag category from Moderate + flag category on any subscale,0,0,cross
+S1-2-020,2,flag,flag:catlevel|flag:comb,flag category from Moderate + flag without item rule,0,0,train
+S1-2-021,2,flag,flag:catlevel|flag:comb,flag category from Moderate + flag without category rule,0,0,train
+S1-2-022,2,flag,flag:catlevel|flag:comb,flag category Extremely Severe only + flag conjunction,0,0,train
+S1-2-023,2,flag,flag:comb|flag:item10,flag without item rule + flag ignores item 10,0,0,cross
+S1-2-024,2,flag,flag:item17|flag:itemmin,flag item value from 2 + flag ignores item 17,0,0,train
+S1-2-025,2,flag,flag:catsub|flag:itemmin,flag category on any subscale + flag item value from 2,0,0,cross
+S1-2-026,2,flag,flag:catlevel|flag:comb,flag category Extremely Severe only + flag without item rule,0,0,train
+S1-2-027,2,flag,flag:catsub|flag:item17,flag category on any subscale + flag ignores item 17,0,0,cross
+S1-2-028,2,flag,flag:catlevel|flag:itemmin,flag category Extremely Severe only + flag item value from 2,0,0,train
+S1-2-029,2,flag,flag:catlevel|flag:item10,flag category from Moderate + flag ignores item 10,0,0,cross
+S1-2-030,2,flag,flag:comb|flag:itemmin,flag without item rule + flag item value from 2,0,0,train
+S1-2-031,2,flag,flag:comb|flag:item17,flag without category rule + flag ignores item 17,0,0,train
+S1-2-032,2,flag,flag:catsub|flag:item21,flag category on any subscale + flag ignores item 21,0,0,cross
+S1-2-033,2,flag,flag:catlevel|flag:comb,flag category Extremely Severe only + flag without category rule,0,0,train
+S1-2-034,2,flag,flag:catsub|flag:comb,flag category on any subscale + flag conjunction,0,0,cross
+S1-2-035,2,flag,flag:catlevel|flag:catsub,flag category Extremely Severe only + flag category on any subscale,0,0,cross
+S1-2-036,2,flag,flag:catlevel|flag:itemmin,flag category from Moderate + flag item value from 2,0,0,train
+S1-2-037,2,flag,flag:catlevel|flag:item10,flag category Extremely Severe only + flag ignores item 10,0,0,cross
+S1-2-038,2,flag,flag:catlevel|flag:comb,flag category from Moderate + flag conjunction,0,0,train
+S1-2-039,2,mixed,flag:comb|gate:comb,gate OR over subscales + flag without category rule,0,0,cross
+S1-2-040,2,mixed,flag:comb|gate:omitA,gate ignores A + flag without category rule,0,0,train
+S1-2-041,2,mixed,flag:comb|gate:omitA,gate ignores A + flag without item rule,0,0,train
+S1-2-042,2,mixed,flag:item17|gate:level,gate up to Mild + flag ignores item 17,0,0,train
+S1-2-043,2,mixed,flag:itemmin|gate:omitS,gate ignores S + flag item value from 2,0,0,train
+S1-2-044,2,mixed,flag:item21|gate:omitD,gate ignores D + flag ignores item 21,0,0,cross
+S1-2-045,2,mixed,flag:item21|gate:comb,gate OR over subscales + flag ignores item 21,0,0,cross
+S1-2-046,2,mixed,flag:catlevel|gate:omitS,gate ignores S + flag category Extremely Severe only,0,0,train
+S1-2-047,2,mixed,flag:itemmin|gate:omitA,gate ignores A + flag item value from 2,0,0,train
+S1-2-048,2,mixed,flag:item21|gate:level,gate up to Mild + flag ignores item 21,0,0,train
+S1-2-049,2,mixed,flag:catlevel|gate:comb,gate OR over subscales + flag category Extremely Severe only,0,0,cross
+S1-2-050,2,mixed,flag:comb|gate:omitD,gate ignores D + flag conjunction,0,0,cross
+S1-2-051,2,mixed,flag:item17|gate:omitA,gate ignores A + flag ignores item 17,0,0,train
+S1-2-052,2,mixed,flag:comb|gate:omitS,gate ignores S + flag without item rule,0,0,train
+S1-2-053,2,mixed,flag:item10|gate:omitD,gate ignores D + flag ignores item 10,0,0,eval
+S1-2-054,2,mixed,flag:item21|gate:omitS,gate ignores S + flag ignores item 21,0,0,train
+S1-2-055,2,mixed,flag:comb|gate:omitD,gate ignores D + flag without category rule,0,0,cross
+S1-2-056,2,mixed,flag:catlevel|gate:omitA,gate ignores A + flag category Extremely Severe only,0,0,train
+S1-2-057,2,mixed,flag:item10|gate:comb,gate OR over subscales + flag ignores item 10,0,0,eval
+S1-2-058,2,mixed,flag:comb|gate:level,gate up to Mild + flag conjunction,0,0,train
+S1-2-059,2,mixed,flag:itemmin|gate:level,gate up to Mild + flag item value from 2,0,0,train
+S1-2-060,2,mixed,flag:comb|gate:omitA,gate ignores A + flag conjunction,0,0,train
+S1-2-061,2,mixed,flag:comb|gate:omitD,gate ignores D + flag without item rule,0,0,cross
+S1-2-062,2,mixed,flag:catlevel|gate:omitS,gate ignores S + flag category from Moderate,0,0,train
+S1-2-063,2,mixed,flag:comb|gate:level,gate up to Mild + flag without category rule,0,0,train
+S1-2-064,2,mixed,flag:catsub|gate:level,gate up to Mild + flag category on any subscale,0,0,cross
+S1-2-065,2,mixed,flag:catsub|gate:omitS,gate ignores S + flag category on any subscale,0,0,cross
+S1-2-066,2,mixed,flag:item17|gate:comb,gate OR over subscales + flag ignores item 17,0,0,cross
+S1-2-067,2,mixed,flag:catlevel|gate:omitA,gate ignores A + flag category from Moderate,0,0,train
+S1-2-068,2,mixed,flag:comb|gate:omitS,gate ignores S + flag without category rule,0,0,train
+S1-2-069,2,mixed,flag:item17|gate:omitD,gate ignores D + flag ignores item 17,0,0,cross
+S1-2-070,2,mixed,flag:item10|gate:omitA,gate ignores A + flag ignores item 10,0,0,cross
+S1-2-071,2,mixed,flag:catlevel|gate:omitD,gate ignores D + flag category from Moderate,0,0,cross
+S1-2-072,2,mixed,flag:catlevel|gate:comb,gate OR over subscales + flag category from Moderate,0,0,cross
+S1-2-073,2,mixed,flag:catsub|gate:omitA,gate ignores A + flag category on any subscale,0,0,cross
+S1-2-074,2,mixed,flag:item17|gate:omitS,gate ignores S + flag ignores item 17,0,0,train
+S1-2-075,2,mixed,flag:catsub|gate:comb,gate OR over subscales + flag category on any subscale,0,0,eval
+S1-2-076,2,mixed,flag:item10|gate:level,gate up to Mild + flag ignores item 10,0,0,cross
+S1-2-077,2,mixed,flag:catlevel|gate:level,gate up to Mild + flag category Extremely Severe only,0,0,train
+S1-2-078,2,mixed,flag:catsub|gate:omitD,gate ignores D + flag category on any subscale,0,0,eval
+S1-2-079,2,mixed,flag:item21|gate:omitA,gate ignores A + flag ignores item 21,0,0,train
+S1-2-080,2,mixed,flag:itemmin|gate:comb,gate OR over subscales + flag item value from 2,0,0,cross
+S1-2-081,2,mixed,flag:catlevel|item:13,item 13 D to A + flag category from Moderate,0,0,cross
+S1-2-082,2,mixed,flag:catsub|item:4,item 4 A to S + flag category on any subscale,0,0,eval
+S1-2-083,2,mixed,flag:itemmin|item:13,item 13 D to A + flag item value from 2,0,0,cross
+S1-2-084,2,mixed,flag:item10|item:6,item 6 S to A + flag ignores item 10,0,0,eval
+S1-2-085,2,mixed,flag:catsub|item:4,item 4 A to D + flag category on any subscale,0,0,eval
+S1-2-086,2,mixed,flag:catlevel|item:17,item 17 D to A + flag category from Moderate,0,0,cross
+S1-2-087,2,mixed,flag:item17|item:18,item 18 S to A + flag ignores item 17,0,0,train
+S1-2-088,2,mixed,flag:comb|item:12,item 12 S to A + flag conjunction,0,0,train
+S1-2-089,2,mixed,flag:comb|item:18,item 18 S to D + flag without category rule,0,0,train
+S1-2-090,2,mixed,flag:comb|item:19,item 19 A to D + flag without category rule,0,0,train
+S1-2-091,2,mixed,flag:item21|item:14,item 14 S to A + flag ignores item 21,0,0,train
+S1-2-092,2,mixed,flag:item17|item:7,item 7 A to D + flag ignores item 17,0,0,train
+S1-2-093,2,mixed,flag:itemmin|item:15,item 15 A to D + flag item value from 2,0,0,train
+S1-2-094,2,mixed,flag:comb|item:11,item 11 S to D + flag without category rule,0,0,train
+S1-2-095,2,mixed,flag:catsub|item:18,item 18 S to D + flag category on any subscale,0,0,cross
+S1-2-096,2,mixed,flag:item10|item:8,item 8 S to A + flag ignores item 10,0,0,cross
+S1-2-097,2,mixed,flag:catlevel|item:15,item 15 A to D + flag category from Moderate,0,0,train
+S1-2-098,2,mixed,flag:item21|item:21,item 21 D to A + flag ignores item 21,0,0,train
+S1-2-099,2,mixed,flag:catlevel|item:17,item 17 D to S + flag category Extremely Severe only,0,0,cross
+S1-2-100,2,mixed,flag:itemmin|item:13,item 13 D to S + flag item value from 2,0,0,cross
+S1-2-101,2,mixed,flag:item10|item:18,item 18 S to A + flag ignores item 10,0,0,cross
+S1-2-102,2,mixed,flag:comb|item:13,item 13 D to A + flag without category rule,0,0,cross
+S1-2-103,2,mixed,flag:catsub|item:21,item 21 D to S + flag category on any subscale,0,0,cross
+S1-2-104,2,mixed,flag:catlevel|item:12,item 12 S to D + flag category Extremely Severe only,0,0,train
+S1-2-105,2,mixed,flag:comb|item:6,item 6 S to D + flag conjunction,0,0,cross
+S1-2-106,2,mixed,flag:catlevel|item:8,item 8 S to A + flag category from Moderate,0,0,train
+S1-2-107,2,mixed,flag:item10|item:7,item 7 A to S + flag ignores item 10,0,0,cross
+S1-2-108,2,mixed,flag:comb|item:1,item 1 S to D + flag without item rule,0,0,train
+S1-2-109,2,mixed,flag:itemmin|item:1,item 1 S to A + flag item value from 2,0,0,train
+S1-2-110,2,mixed,flag:itemmin|item:4,item 4 A to S + flag item value from 2,0,0,cross
+S1-2-111,2,mixed,flag:comb|item:17,item 17 D to S + flag without category rule,0,0,cross
+S1-2-112,2,mixed,flag:comb|item:16,item 16 D to A + flag without category rule,0,0,train
+S1-2-113,2,mixed,flag:comb|item:12,item 12 S to A + flag without item rule,0,0,train
+S1-2-114,2,mixed,flag:catlevel|item:21,item 21 D to S + flag category Extremely Severe only,0,0,train
+S1-2-115,2,mixed,flag:item10|item:14,item 14 S to D + flag ignores item 10,0,0,cross
+S1-2-116,2,mixed,flag:catlevel|item:13,item 13 D to S + flag category from Moderate,0,0,cross
+S1-2-117,2,mixed,flag:comb|item:10,item 10 D to A + flag without item rule,0,0,cross
+S1-2-118,2,mixed,flag:catsub|item:6,item 6 S to D + flag category on any subscale,0,0,eval
+S1-2-119,2,mixed,flag:comb|item:7,item 7 A to S + flag conjunction,0,0,train
+S1-2-120,2,mixed,flag:comb|item:18,item 18 S to A + flag without item rule,0,0,train
+S1-2-121,2,mixed,flag:item17|item:13,item 13 D to A + flag ignores item 17,0,0,cross
+S1-2-122,2,mixed,flag:item17|item:12,item 12 S to A + flag ignores item 17,0,0,train
+S1-2-123,2,mixed,flag:itemmin|scale:all,factor 4 on all subscales + flag item value from 2,0,0,train
+S1-2-124,2,mixed,flag:comb|scale:all,factor 4 on all subscales + flag without category rule,0,0,train
+S1-2-125,2,mixed,flag:comb|scale:all,factor 4 on all subscales + flag conjunction,0,0,train
+S1-2-126,2,mixed,flag:catlevel|scale:all,factor 1 on all subscales + flag category Extremely Severe only,0,0,train
+S1-2-127,2,mixed,flag:item21|scale:all,factor 1 on all subscales + flag ignores item 21,0,0,train
+S1-2-128,2,mixed,flag:comb|scale:all,factor 1 on all subscales + flag without category rule,0,0,train
+S1-2-129,2,mixed,flag:item10|scale:all,factor 1 on all subscales + flag ignores item 10,0,0,cross
+S1-2-130,2,mixed,flag:catsub|scale:all,factor 4 on all subscales + flag category on any subscale,0,0,cross
+S1-2-131,2,mixed,flag:item21|scale:all,factor 4 on all subscales + flag ignores item 21,0,0,train
+S1-2-132,2,mixed,flag:item10|scale:all,factor 4 on all subscales + flag ignores item 10,0,0,cross
+S1-2-133,2,mixed,flag:item17|scale:all,factor 1 on all subscales + flag ignores item 17,0,0,train
+S1-2-134,2,mixed,flag:comb|scale:all,factor 1 on all subscales + flag without item rule,0,0,train
+S1-2-135,2,mixed,flag:catlevel|scale:all,factor 4 on all subscales + flag category from Moderate,0,0,train
+S1-2-136,2,mixed,flag:catlevel|scale:all,factor 4 on all subscales + flag category Extremely Severe only,0,0,train
+S1-2-137,2,mixed,flag:comb|scale:all,factor 1 on all subscales + flag conjunction,0,0,train
+S1-2-138,2,mixed,flag:comb|scale:all,factor 4 on all subscales + flag without item rule,0,0,train
+S1-2-139,2,mixed,flag:catlevel|scale:all,factor 1 on all subscales + flag category from Moderate,0,0,train
+S1-2-140,2,mixed,flag:catsub|scale:all,factor 1 on all subscales + flag category on any subscale,0,0,cross
+S1-2-141,2,mixed,flag:itemmin|scale:all,factor 1 on all subscales + flag item value from 2,0,0,train
+S1-2-142,2,mixed,flag:item17|scale:all,factor 4 on all subscales + flag ignores item 17,0,0,train
+S1-2-143,2,mixed,flag:item21|thr:A3,A cut 3 +2 + flag ignores item 21,0,0,cross
+S1-2-144,2,mixed,flag:item21|thr:D2,D cut 2 +1 + flag ignores item 21,0,0,train
+S1-2-145,2,mixed,flag:item21|thr:D4,D cut 4 -2 + flag ignores item 21,0,0,train
+S1-2-146,2,mixed,flag:catlevel|thr:A4,A cut 4 +2 + flag category from Moderate,0,0,cross
+S1-2-147,2,mixed,flag:comb|thr:D3,D cut 3 -1 + flag without item rule,0,0,cross
+S1-2-148,2,mixed,flag:catlevel|thr:S1,S cut 1 -1 + flag category from Moderate,0,0,train
+S1-2-149,2,mixed,flag:item10|thr:D1,D cut 1 -2 + flag ignores item 10,0,0,cross
+S1-2-150,2,mixed,flag:item10|thr:D2,D cut 2 +1 + flag ignores item 10,0,0,cross
+S1-2-151,2,mixed,flag:catlevel|thr:D1,D cut 1 -2 + flag category from Moderate,0,0,train
+S1-2-152,2,mixed,flag:catlevel|thr:S1,S cut 1 -1 + flag category Extremely Severe only,0,0,train
+S1-2-153,2,mixed,flag:item10|thr:S3,S cut 3 +1 + flag ignores item 10,0,0,cross
+S1-2-154,2,mixed,flag:item21|thr:S2,S cut 2 +2 + flag ignores item 21,0,0,train
+S1-2-155,2,mixed,flag:catsub|thr:D2,D cut 2 +1 + flag category on any subscale,0,0,cross
+S1-2-156,2,mixed,flag:catsub|thr:S4,S cut 4 -2 + flag category on any subscale,0,0,cross
+S1-2-157,2,mixed,flag:catlevel|thr:D4,D cut 4 +1 + flag category Extremely Severe only,0,0,train
+S1-2-158,2,mixed,flag:itemmin|thr:A1,A cut 1 -2 + flag item value from 2,0,0,cross
+S1-2-159,2,mixed,flag:catlevel|thr:D3,D cut 3 -2 + flag category Extremely Severe only,0,0,cross
+S1-2-160,2,mixed,flag:item10|thr:S4,S cut 4 -2 + flag ignores item 10,0,0,cross
+S1-2-161,2,mixed,flag:catsub|thr:D1,D cut 1 +2 + flag category on any subscale,0,0,cross
+S1-2-162,2,mixed,flag:item10|thr:A1,A cut 1 +1 + flag ignores item 10,0,0,eval
+S1-2-163,2,mixed,flag:comb|thr:S4,S cut 4 +1 + flag without category rule,0,0,train
+S1-2-164,2,mixed,flag:catsub|thr:A3,A cut 3 +2 + flag category on any subscale,0,0,eval
+S1-2-165,2,mixed,flag:item21|thr:D3,D cut 3 -1 + flag ignores item 21,0,0,cross
+S1-2-166,2,mixed,flag:catsub|thr:D1,D cut 1 -2 + flag category on any subscale,0,0,cross
+S1-2-167,2,mixed,flag:catlevel|thr:A3,A cut 3 -2 + flag category from Moderate,0,0,cross
+S1-2-168,2,mixed,flag:item17|thr:S3,S cut 3 +1 + flag ignores item 17,0,0,train
+S1-2-169,2,mixed,flag:comb|thr:S3,S cut 3 +1 + flag without item rule,0,0,train
+S1-2-170,2,mixed,flag:catlevel|thr:S2,S cut 2 -2 + flag category Extremely Severe only,0,0,train
+S1-2-171,2,mixed,flag:item21|thr:D3,D cut 3 -2 + flag ignores item 21,0,0,cross
+S1-2-172,2,mixed,flag:comb|thr:D4,D cut 4 +2 + flag without item rule,0,0,train
+S1-2-173,2,mixed,flag:catsub|thr:S1,S cut 1 +2 + flag category on any subscale,0,0,cross
+S1-2-174,2,mixed,flag:catlevel|thr:S3,S cut 3 +2 + flag category Extremely Severe only,0,0,train
+S1-2-175,2,mixed,flag:item10|thr:D3,D cut 3 -2 + flag ignores item 10,0,0,eval
+S1-2-176,2,mixed,flag:itemmin|thr:S3,S cut 3 +2 + flag item value from 2,0,0,train
+S1-2-177,2,mixed,flag:item17|thr:S2,S cut 2 -2 + flag ignores item 17,0,0,train
+S1-2-178,2,mixed,flag:item17|thr:A2,A cut 2 +1 + flag ignores item 17,0,0,train
+S1-2-179,2,mixed,flag:comb|thr:D2,D cut 2 +1 + flag conjunction,0,0,train
+S1-2-180,2,mixed,flag:comb|thr:A4,A cut 4 +2 + flag conjunction,0,0,cross
+S1-2-181,2,mixed,flag:catlevel|thr:D3,D cut 3 +2 + flag category Extremely Severe only,0,0,cross
+S1-2-182,2,mixed,flag:catlevel|thr:S3,S cut 3 +2 + flag category from Moderate,0,0,train
+S1-2-183,2,mixed,flag:itemmin|thr:A2,A cut 2 +2 + flag item value from 2,0,0,train
+S1-2-184,2,mixed,flag:item21|thr:S2,S cut 2 -2 + flag ignores item 21,0,0,train
+S1-2-185,2,mixed,flag:item21|thr:A4,A cut 4 -2 + flag ignores item 21,0,0,cross
+S1-2-186,2,gate,gate:level|gate:omitS,gate up to Mild + gate ignores S,0,0,train
+S1-2-187,2,gate,gate:comb|gate:omitD,gate OR over subscales + gate ignores D,0,0,eval
+S1-2-188,2,gate,gate:level|gate:omitD,gate up to Mild + gate ignores D,0,0,cross
+S1-2-189,2,gate,gate:level|gate:omitA,gate up to Mild + gate ignores A,0,0,train
+S1-2-190,2,gate,gate:comb|gate:omitS,gate OR over subscales + gate ignores S,0,0,cross
+S1-2-191,2,gate,gate:comb|gate:level,gate OR over subscales + gate up to Mild,0,0,cross
+S1-2-192,2,gate,gate:comb|gate:omitA,gate OR over subscales + gate ignores A,0,0,cross
+S1-2-193,2,mixed,gate:omitS|item:10,item 10 D to S + gate ignores S,0,0,cross
+S1-2-194,2,mixed,gate:omitA|item:2,item 2 A to S + gate ignores A,0,0,cross
+S1-2-195,2,mixed,gate:omitA|item:2,item 2 A to D + gate ignores A,0,0,cross
+S1-2-196,2,mixed,gate:omitA|item:9,item 9 A to S + gate ignores A,0,0,train
+S1-2-197,2,mixed,gate:comb|item:17,item 17 D to S + gate OR over subscales,0,0,eval
+S1-2-198,2,mixed,gate:comb|item:10,item 10 D to A + gate OR over subscales,0,0,eval
+S1-2-199,2,mixed,gate:omitD|item:20,item 20 A to S + gate ignores D,0,0,cross
+S1-2-200,2,mixed,gate:level|item:1,item 1 S to A + gate up to Mild,0,0,train
+S1-2-201,2,mixed,gate:omitD|item:21,item 21 D to A + gate ignores D,0,0,cross
+S1-2-202,2,mixed,gate:comb|item:14,item 14 S to D + gate OR over subscales,0,0,cross
+S1-2-203,2,mixed,gate:level|item:13,item 13 D to A + gate up to Mild,0,0,cross
+S1-2-204,2,mixed,gate:omitA|item:9,item 9 A to D + gate ignores A,0,0,train
+S1-2-205,2,mixed,gate:omitS|item:18,item 18 S to D + gate ignores S,0,0,train
+S1-2-206,2,mixed,gate:omitD|item:8,item 8 S to A + gate ignores D,0,0,cross
+S1-2-207,2,mixed,gate:comb|item:12,item 12 S to A + gate OR over subscales,0,0,cross
+S1-2-208,2,mixed,gate:omitA|item:20,item 20 A to S + gate ignores A,0,0,train
+S1-2-209,2,mixed,gate:level|item:4,item 4 A to D + gate up to Mild,0,0,cross
+S1-2-210,2,mixed,gate:omitD|item:13,item 13 D to S + gate ignores D,0,0,eval
+S1-2-211,2,mixed,gate:omitS|item:12,item 12 S to A + gate ignores S,0,0,train
+S1-2-212,2,mixed,gate:level|item:15,item 15 A to S + gate up to Mild,0,0,train
+S1-2-213,2,mixed,gate:omitA|item:16,item 16 D to S + gate ignores A,0,0,train
+S1-2-214,2,mixed,gate:omitA|item:5,item 5 D to A + gate ignores A,0,0,train
+S1-2-215,2,mixed,gate:omitS|item:4,item 4 A to S + gate ignores S,0,0,cross
+S1-2-216,2,mixed,gate:level|item:16,item 16 D to A + gate up to Mild,0,0,train
+S1-2-217,2,mixed,gate:omitA|item:14,item 14 S to D + gate ignores A,0,0,train
+S1-2-218,2,mixed,gate:omitD|item:6,item 6 S to D + gate ignores D,0,0,eval
+S1-2-219,2,mixed,gate:level|item:12,item 12 S to D + gate up to Mild,0,0,train
+S1-2-220,2,mixed,gate:omitS|item:16,item 16 D to S + gate ignores S,0,0,train
+S1-2-221,2,mixed,gate:level|item:9,item 9 A to S + gate up to Mild,0,0,train
+S1-2-222,2,mixed,gate:omitD|item:12,item 12 S to A + gate ignores D,0,0,cross
+S1-2-223,2,mixed,gate:omitA|item:16,item 16 D to A + gate ignores A,0,0,train
+S1-2-224,2,mixed,gate:omitS|item:6,item 6 S to A + gate ignores S,0,0,cross
+S1-2-225,2,mixed,gate:omitA|item:18,item 18 S to D + gate ignores A,0,0,train
+S1-2-226,2,mixed,gate:omitD|item:2,item 2 A to S + gate ignores D,0,0,eval
+S1-2-227,2,mixed,gate:comb|item:15,item 15 A to D + gate OR over subscales,0,0,cross
+S1-2-228,2,mixed,gate:omitD|item:11,item 11 S to D + gate ignores D,0,0,cross
+S1-2-229,2,mixed,gate:omitA|item:1,item 1 S to A + gate ignores A,0,0,train
+S1-2-230,2,mixed,gate:comb|item:6,item 6 S to D + gate OR over subscales,0,0,eval
+S1-2-231,2,mixed,gate:comb|item:21,item 21 D to S + gate OR over subscales,0,0,cross
+S1-2-232,2,mixed,gate:omitS|item:5,item 5 D to A + gate ignores S,0,0,train
+S1-2-233,2,mixed,gate:level|item:2,item 2 A to D + gate up to Mild,0,0,cross
+S1-2-234,2,mixed,gate:level|item:18,item 18 S to D + gate up to Mild,0,0,train
+S1-2-235,2,mixed,gate:omitA|scale:all,factor 4 on all subscales + gate ignores A,0,0,train
+S1-2-236,2,mixed,gate:comb|scale:all,factor 1 on all subscales + gate OR over subscales,0,0,cross
+S1-2-237,2,mixed,gate:omitD|scale:all,factor 4 on all subscales + gate ignores D,0,0,cross
+S1-2-238,2,mixed,gate:level|scale:all,factor 4 on all subscales + gate up to Mild,0,0,train
+S1-2-239,2,mixed,gate:comb|scale:all,factor 4 on all subscales + gate OR over subscales,0,0,cross
+S1-2-240,2,mixed,gate:level|scale:all,factor 1 on all subscales + gate up to Mild,0,0,train
+S1-2-241,2,mixed,gate:omitA|scale:all,factor 1 on all subscales + gate ignores A,0,0,train
+S1-2-242,2,mixed,gate:omitD|scale:all,factor 1 on all subscales + gate ignores D,0,0,cross
+S1-2-243,2,mixed,gate:omitS|scale:all,factor 4 on all subscales + gate ignores S,0,0,train
+S1-2-244,2,mixed,gate:omitS|scale:all,factor 1 on all subscales + gate ignores S,0,0,train
+S1-2-245,2,mixed,gate:comb|thr:S4,S cut 4 +2 + gate OR over subscales,0,0,cross
+S1-2-246,2,mixed,gate:comb|thr:S2,S cut 2 +2 + gate OR over subscales,0,0,cross
+S1-2-247,2,mixed,gate:comb|thr:D4,D cut 4 +2 + gate OR over subscales,0,0,cross
+S1-2-248,2,mixed,gate:omitD|thr:S2,S cut 2 -1 + gate ignores D,0,0,cross
+S1-2-249,2,mixed,gate:comb|thr:D3,D cut 3 -1 + gate OR over subscales,0,0,eval
+S1-2-250,2,mixed,gate:level|thr:D3,D cut 3 +2 + gate up to Mild,0,0,cross
+S1-2-251,2,mixed,gate:omitD|thr:D4,D cut 4 -2 + gate ignores D,0,0,cross
+S1-2-252,2,mixed,gate:omitS|thr:A4,A cut 4 -2 + gate ignores S,0,0,cross
+S1-2-253,2,mixed,gate:omitS|thr:A1,A cut 1 +1 + gate ignores S,0,0,cross
+S1-2-254,2,mixed,gate:omitA|thr:A4,A cut 4 +2 + gate ignores A,0,0,cross
+S1-2-255,2,mixed,gate:level|thr:S2,S cut 2 +2 + gate up to Mild,0,0,train
+S1-2-256,2,mixed,gate:level|thr:A4,A cut 4 +2 + gate up to Mild,0,0,cross
+S1-2-257,2,mixed,gate:comb|thr:D2,D cut 2 +1 + gate OR over subscales,0,0,cross
+S1-2-258,2,mixed,gate:omitA|thr:A4,A cut 4 -2 + gate ignores A,0,0,cross
+S1-2-259,2,mixed,gate:omitA|thr:A2,A cut 2 +2 + gate ignores A,0,0,train
+S1-2-260,2,mixed,gate:omitA|thr:S4,S cut 4 +1 + gate ignores A,0,0,train
+S1-2-261,2,mixed,gate:omitA|thr:A3,A cut 3 -1 + gate ignores A,0,0,cross
+S1-2-262,2,mixed,gate:omitS|thr:D3,D cut 3 +2 + gate ignores S,0,0,cross
+S1-2-263,2,mixed,gate:omitD|thr:A1,A cut 1 +1 + gate ignores D,0,0,eval
+S1-2-264,2,mixed,gate:omitA|thr:S1,S cut 1 -1 + gate ignores A,0,0,train
+S1-2-265,2,mixed,gate:omitD|thr:S2,S cut 2 -2 + gate ignores D,0,0,cross
+S1-2-266,2,mixed,gate:omitA|thr:S4,S cut 4 -2 + gate ignores A,0,0,train
+S1-2-267,2,mixed,gate:omitA|thr:A2,A cut 2 +1 + gate ignores A,0,0,train
+S1-2-268,2,mixed,gate:omitS|thr:S1,S cut 1 -1 + gate ignores S,0,0,train
+S1-2-269,2,mixed,gate:comb|thr:D4,D cut 4 -2 + gate OR over subscales,0,0,cross
+S1-2-270,2,mixed,gate:omitA|thr:A3,A cut 3 -2 + gate ignores A,0,0,cross
+S1-2-271,2,mixed,gate:level|thr:S4,S cut 4 +2 + gate up to Mild,0,0,train
+S1-2-272,2,mixed,gate:omitA|thr:S1,S cut 1 +2 + gate ignores A,0,0,train
+S1-2-273,2,mixed,gate:omitA|thr:S1,S cut 1 -2 + gate ignores A,0,0,train
+S1-2-274,2,mixed,gate:comb|thr:D3,D cut 3 -2 + gate OR over subscales,0,0,eval
+S1-2-275,2,mixed,gate:omitS|thr:S2,S cut 2 -1 + gate ignores S,0,0,train
+S1-2-276,2,mixed,gate:omitS|thr:S2,S cut 2 +2 + gate ignores S,0,0,train
+S1-2-277,2,mixed,gate:comb|thr:A2,A cut 2 +1 + gate OR over subscales,0,0,cross
+S1-2-278,2,mixed,gate:omitS|thr:D2,D cut 2 +1 + gate ignores S,0,0,train
+S1-2-279,2,mixed,gate:omitS|thr:D4,D cut 4 +1 + gate ignores S,0,0,train
+S1-2-280,2,mixed,gate:omitS|thr:D4,D cut 4 +2 + gate ignores S,0,0,train
+S1-2-281,2,mixed,gate:level|thr:D1,D cut 1 -2 + gate up to Mild,0,0,train
+S1-2-282,2,mixed,gate:omitA|thr:D2,D cut 2 +1 + gate ignores A,0,0,train
+S1-2-283,2,mixed,gate:level|thr:S1,S cut 1 -1 + gate up to Mild,0,0,train
+S1-2-284,2,mixed,gate:omitS|thr:A3,A cut 3 -2 + gate ignores S,0,0,cross
+S1-2-285,2,mixed,gate:omitS|thr:A4,A cut 4 +1 + gate ignores S,0,0,cross
+S1-2-286,2,mixed,gate:level|thr:D4,D cut 4 -2 + gate up to Mild,0,0,train
+S1-2-287,2,mixed,gate:level|thr:D1,D cut 1 +1 + gate up to Mild,0,0,train
+S1-2-288,2,mapping,item:6|item:7,item 6 S to D + item 7 A to D,0,0,cross
+S1-2-289,2,mapping,item:3|item:6,item 3 D to A + item 6 S to D,0,0,cross
+S1-2-290,2,mapping,item:21|item:9,item 9 A to S + item 21 D to S,0,0,train
+S1-2-291,2,mapping,item:13|item:17,item 13 D to A + item 17 D to S,0,0,eval
+S1-2-292,2,mapping,item:10|item:16,item 10 D to A + item 16 D to A,0,0,cross
+S1-2-293,2,mapping,item:17|item:19,item 17 D to S + item 19 A to D,0,0,cross
+S1-2-294,2,mapping,item:21|item:9,item 9 A to D + item 21 D to S,0,0,train
+S1-2-295,2,mapping,item:18|item:3,item 3 D to S + item 18 S to A,0,0,train
+S1-2-296,2,mapping,item:19|item:2,item 2 A to D + item 19 A to D,0,0,cross
+S1-2-297,2,mapping,item:11|item:19,item 11 S to D + item 19 A to S,0,0,train
+S1-2-298,2,mapping,item:14|item:17,item 14 S to D + item 17 D to S,0,0,cross
+S1-2-299,2,mapping,item:17|item:4,item 4 A to S + item 17 D to S,0,0,eval
+S1-2-300,2,mapping,item:18|item:9,item 9 A to S + item 18 S to A,0,0,train
+S1-2-301,2,mapping,item:15|item:16,item 15 A to S + item 16 D to S,0,0,train
+S1-2-302,2,mapping,item:10|item:13,item 10 D to A + item 13 D to S,0,0,eval
+S1-2-303,2,mapping,item:14|item:18,item 14 S to A + item 18 S to D,0,0,train
+S1-2-304,2,mapping,item:17|item:3,item 3 D to S + item 17 D to S,0,0,cross
+S1-2-305,2,mapping,item:10|item:14,item 10 D to A + item 14 S to A,0,0,cross
+S1-2-306,2,mapping,item:5|item:8,item 5 D to A + item 8 S to A,0,0,train
+S1-2-307,2,mapping,item:10|item:11,item 10 D to A + item 11 S to D,0,0,cross
+S1-2-308,2,mapping,item:11|item:4,item 4 A to S + item 11 S to D,0,0,cross
+S1-2-309,2,mapping,item:12|item:17,item 12 S to A + item 17 D to A,0,0,cross
+S1-2-310,2,mapping,item:11|item:2,item 2 A to S + item 11 S to A,0,0,cross
+S1-2-311,2,mapping,item:14|item:2,item 2 A to D + item 14 S to A,0,0,cross
+S1-2-312,2,mapping,item:17|item:18,item 17 D to A + item 18 S to D,0,0,cross
+S1-2-313,2,mapping,item:4|item:9,item 4 A to S + item 9 A to D,0,0,cross
+S1-2-314,2,mapping,item:12|item:2,item 2 A to D + item 12 S to D,0,0,cross
+S1-2-315,2,mapping,item:21|item:7,item 7 A to D + item 21 D to A,0,0,train
+S1-2-316,2,mapping,item:13|item:3,item 3 D to A + item 13 D to S,0,0,cross
+S1-2-317,2,mapping,item:17|item:2,item 2 A to D + item 17 D to A,0,0,eval
+S1-2-318,2,mapping,item:13|item:16,item 13 D to A + item 16 D to A,0,0,cross
+S1-2-319,2,mapping,item:1|item:12,item 1 S to A + item 12 S to A,0,0,train
+S1-2-320,2,mapping,item:15|item:20,item 15 A to S + item 20 A to S,0,0,train
+S1-2-321,2,mapping,item:6|item:9,item 6 S to D + item 9 A to D,0,0,cross
+S1-2-322,2,mapping,item:14|item:20,item 14 S to D + item 20 A to S,0,0,train
+S1-2-323,2,mapping,item:18|item:21,item 18 S to D + item 21 D to S,0,0,train
+S1-2-324,2,mapping,item:20|item:3,item 3 D to A + item 20 A to S,0,0,train
+S1-2-325,2,mapping,item:12|item:13,item 12 S to D + item 13 D to S,0,0,cross
+S1-2-326,2,mapping,item:11|item:14,item 11 S to A + item 14 S to A,0,0,train
+S1-2-327,2,mapping,item:17|item:8,item 8 S to A + item 17 D to A,0,0,cross
+S1-2-328,2,mapping,item:18|item:5,item 5 D to A + item 18 S to A,0,0,train
+S1-2-329,2,mapping,item:15|item:4,item 4 A to S + item 15 A to S,0,0,cross
+S1-2-330,2,mixed,item:17|scale:all,factor 4 on all subscales + item 17 D to S,0,0,cross
+S1-2-331,2,mixed,item:5|scale:all,factor 1 on all subscales + item 5 D to A,0,0,train
+S1-2-332,2,mixed,item:19|scale:all,factor 1 on all subscales + item 19 A to S,0,0,train
+S1-2-333,2,mixed,item:21|scale:all,factor 1 on all subscales + item 21 D to A,0,0,train
+S1-2-334,2,mixed,item:11|scale:all,factor 1 on all subscales + item 11 S to D,0,0,train
+S1-2-335,2,mixed,item:17|scale:all,factor 1 on all subscales + item 17 D to S,0,0,cross
+S1-2-336,2,mixed,item:17|scale:all,factor 1 on all subscales + item 17 D to A,0,0,cross
+S1-2-337,2,mixed,item:21|scale:all,factor 4 on all subscales + item 21 D to A,0,0,train
+S1-2-338,2,mixed,item:1|scale:all,factor 1 on all subscales + item 1 S to A,0,0,train
+S1-2-339,2,mixed,item:6|scale:all,factor 4 on all subscales + item 6 S to D,0,0,cross
+S1-2-340,2,mixed,item:18|scale:all,factor 4 on all subscales + item 18 S to A,0,0,train
+S1-2-341,2,mixed,item:6|scale:all,factor 4 on all subscales + item 6 S to A,0,0,cross
+S1-2-342,2,mixed,item:21|scale:all,factor 4 on all subscales + item 21 D to S,0,0,train
+S1-2-343,2,mixed,item:4|scale:all,factor 1 on all subscales + item 4 A to S,0,0,cross
+S1-2-344,2,mixed,item:7|scale:all,factor 1 on all subscales + item 7 A to D,0,0,train
+S1-2-345,2,mixed,item:16|scale:all,factor 1 on all subscales + item 16 D to A,0,0,train
+S1-2-346,2,mixed,item:2|scale:all,factor 1 on all subscales + item 2 A to D,0,0,cross
+S1-2-347,2,mixed,item:20|scale:all,factor 1 on all subscales + item 20 A to S,0,0,train
+S1-2-348,2,mixed,item:8|scale:all,factor 1 on all subscales + item 8 S to A,0,0,train
+S1-2-349,2,mixed,item:14|scale:all,factor 4 on all subscales + item 14 S to A,0,0,train
+S1-2-350,2,mixed,item:2|scale:all,factor 4 on all subscales + item 2 A to D,0,0,cross
+S1-2-351,2,mixed,item:19|scale:all,factor 4 on all subscales + item 19 A to S,0,0,train
+S1-2-352,2,mixed,item:4|scale:all,factor 4 on all subscales + item 4 A to S,0,0,cross
+S1-2-353,2,mixed,item:15|scale:all,factor 1 on all subscales + item 15 A to S,0,0,train
+S1-2-354,2,mixed,item:20|scale:all,factor 1 on all subscales + item 20 A to D,0,0,train
+S1-2-355,2,mixed,item:20|scale:all,factor 4 on all subscales + item 20 A to D,0,0,train
+S1-2-356,2,mixed,item:21|scale:all,factor 1 on all subscales + item 21 D to S,0,0,train
+S1-2-357,2,mixed,item:2|scale:all,factor 4 on all subscales + item 2 A to S,0,0,cross
+S1-2-358,2,mixed,item:13|scale:all,factor 4 on all subscales + item 13 D to A,0,0,cross
+S1-2-359,2,mixed,item:13|scale:all,factor 4 on all subscales + item 13 D to S,0,0,cross
+S1-2-360,2,mixed,item:13|scale:all,factor 1 on all subscales + item 13 D to S,0,0,cross
+S1-2-361,2,mixed,item:11|scale:all,factor 4 on all subscales + item 11 S to D,0,0,train
+S1-2-362,2,mixed,item:9|scale:all,factor 4 on all subscales + item 9 A to S,0,0,train
+S1-2-363,2,mixed,item:7|scale:all,factor 1 on all subscales + item 7 A to S,0,0,train
+S1-2-364,2,mixed,item:5|scale:all,factor 4 on all subscales + item 5 D to S,0,0,train
+S1-2-365,2,mixed,item:10|scale:all,factor 4 on all subscales + item 10 D to A,0,0,cross
+S1-2-366,2,mixed,item:14|scale:all,factor 1 on all subscales + item 14 S to A,0,0,train
+S1-2-367,2,mixed,item:1|scale:all,factor 4 on all subscales + item 1 S to A,0,0,train
+S1-2-368,2,mixed,item:15|scale:all,factor 4 on all subscales + item 15 A to D,0,0,train
+S1-2-369,2,mixed,item:3|scale:all,factor 4 on all subscales + item 3 D to A,0,0,train
+S1-2-370,2,mixed,item:12|scale:all,factor 1 on all subscales + item 12 S to A,0,0,train
+S1-2-371,2,mixed,item:16|scale:all,factor 4 on all subscales + item 16 D to S,0,0,train
+S1-2-372,2,mixed,item:5|thr:S4,S cut 4 +2 + item 5 D to S,0,0,train
+S1-2-373,2,mixed,item:6|thr:A1,A cut 1 -2 + item 6 S to A,0,0,eval
+S1-2-374,2,mixed,item:21|thr:A3,A cut 3 +2 + item 21 D to A,0,0,cross
+S1-2-375,2,mixed,item:5|thr:A2,A cut 2 +1 + item 5 D to S,0,0,train
+S1-2-376,2,mixed,item:8|thr:A3,A cut 3 -1 + item 8 S to A,0,0,cross
+S1-2-377,2,mixed,item:18|thr:D1,D cut 1 +2 + item 18 S to D,0,0,train
+S1-2-378,2,mixed,item:7|thr:A4,A cut 4 +2 + item 7 A to D,0,0,cross
+S1-2-379,2,mixed,item:4|thr:D1,D cut 1 +1 + item 4 A to D,0,0,cross
+S1-2-380,2,mixed,item:16|thr:A1,A cut 1 +1 + item 16 D to A,0,0,cross
+S1-2-381,2,mixed,item:19|thr:S4,S cut 4 +2 + item 19 A to S,0,0,train
+S1-2-382,2,mixed,item:3|thr:A3,A cut 3 -2 + item 3 D to A,0,0,cross
+S1-2-383,2,mixed,item:3|thr:A2,A cut 2 +1 + item 3 D to S,0,0,train
+S1-2-384,2,mixed,item:21|thr:D2,D cut 2 +2 + item 21 D to A,0,0,train
+S1-2-385,2,mixed,item:11|thr:A2,A cut 2 +1 + item 11 S to D,0,0,train
+S1-2-386,2,mixed,item:7|thr:A4,A cut 4 +1 + item 7 A to S,0,0,cross
+S1-2-387,2,mixed,item:12|thr:A2,A cut 2 +2 + item 12 S to A,0,0,train
+S1-2-388,2,mixed,item:12|thr:S3,S cut 3 -2 + item 12 S to A,0,0,train
+S1-2-389,2,mixed,item:21|thr:D1,D cut 1 -2 + item 21 D to S,0,0,train
+S1-2-390,2,mixed,item:10|thr:S2,S cut 2 -1 + item 10 D to A,0,0,cross
+S1-2-391,2,mixed,item:15|thr:A3,A cut 3 -2 + item 15 A to S,0,0,cross
+S1-2-392,2,mixed,item:14|thr:D4,D cut 4 -2 + item 14 S to D,0,0,train
+S1-2-393,2,mixed,item:8|thr:S2,S cut 2 +2 + item 8 S to D,0,0,train
+S1-2-394,2,mixed,item:16|thr:D1,D cut 1 +2 + item 16 D to A,0,0,train
+S1-2-395,2,mixed,item:11|thr:D2,D cut 2 +2 + item 11 S to D,0,0,train
+S1-2-396,2,mixed,item:20|thr:D3,D cut 3 -1 + item 20 A to D,0,0,cross
+S1-2-397,2,mixed,item:4|thr:S3,S cut 3 +2 + item 4 A to S,0,0,cross
+S1-2-398,2,mixed,item:21|thr:D2,D cut 2 +2 + item 21 D to S,0,0,train
+S1-2-399,2,mixed,item:17|thr:D2,D cut 2 +2 + item 17 D to A,0,0,cross
+S1-2-400,2,mixed,item:18|thr:D1,D cut 1 +1 + item 18 S to D,0,0,train
+S1-2-401,2,mixed,item:3|thr:D3,D cut 3 -2 + item 3 D to S,0,0,cross
+S1-2-402,2,mixed,item:11|thr:S2,S cut 2 -2 + item 11 S to D,0,0,train
+S1-2-403,2,mixed,item:6|thr:A3,A cut 3 -1 + item 6 S to A,0,0,eval
+S1-2-404,2,mixed,item:3|thr:S3,S cut 3 +1 + item 3 D to A,0,0,train
+S1-2-405,2,mixed,item:13|thr:S4,S cut 4 -2 + item 13 D to A,0,0,cross
+S1-2-406,2,mixed,item:21|thr:S4,S cut 4 -2 + item 21 D to S,0,0,train
+S1-2-407,2,mixed,item:16|thr:A2,A cut 2 +1 + item 16 D to A,0,0,train
+S1-2-408,2,mixed,item:9|thr:D1,D cut 1 +1 + item 9 A to D,0,0,train
+S1-2-409,2,mixed,item:15|thr:A4,A cut 4 +1 + item 15 A to S,0,0,cross
+S1-2-410,2,mixed,item:5|thr:S3,S cut 3 -2 + item 5 D to A,0,0,train
+S1-2-411,2,mixed,item:4|thr:D3,D cut 3 -2 + item 4 A to D,0,0,eval
+S1-2-412,2,mixed,item:6|thr:A4,A cut 4 +1 + item 6 S to D,0,0,eval
+S1-2-413,2,mixed,item:16|thr:A3,A cut 3 +2 + item 16 D to A,0,0,cross
+S1-2-414,2,mixed,item:9|thr:A3,A cut 3 +2 + item 9 A to D,0,0,cross
+S1-2-415,2,mixed,scale:all|thr:A2,A cut 2 +2 + factor 1 on all subscales,0,0,train
+S1-2-416,2,mixed,scale:all|thr:S2,S cut 2 -1 + factor 4 on all subscales,0,0,train
+S1-2-417,2,mixed,scale:all|thr:A2,A cut 2 +1 + factor 1 on all subscales,0,0,train
+S1-2-418,2,mixed,scale:all|thr:D3,D cut 3 +2 + factor 1 on all subscales,0,0,cross
+S1-2-419,2,mixed,scale:all|thr:D4,D cut 4 +2 + factor 4 on all subscales,0,0,train
+S1-2-420,2,mixed,scale:all|thr:A3,A cut 3 -1 + factor 1 on all subscales,0,0,cross
+S1-2-421,2,mixed,scale:all|thr:D1,D cut 1 -2 + factor 4 on all subscales,0,0,train
+S1-2-422,2,mixed,scale:all|thr:A4,A cut 4 +2 + factor 1 on all subscales,0,0,cross
+S1-2-423,2,mixed,scale:all|thr:S1,S cut 1 -2 + factor 4 on all subscales,0,0,train
+S1-2-424,2,mixed,scale:all|thr:S4,S cut 4 -2 + factor 1 on all subscales,0,0,train
+S1-2-425,2,mixed,scale:all|thr:A4,A cut 4 +2 + factor 4 on all subscales,0,0,cross
+S1-2-426,2,mixed,scale:all|thr:A3,A cut 3 -1 + factor 4 on all subscales,0,0,cross
+S1-2-427,2,mixed,scale:all|thr:A1,A cut 1 -2 + factor 4 on all subscales,0,0,cross
+S1-2-428,2,mixed,scale:all|thr:S4,S cut 4 +1 + factor 1 on all subscales,0,0,train
+S1-2-429,2,mixed,scale:all|thr:S2,S cut 2 -2 + factor 1 on all subscales,0,0,train
+S1-2-430,2,mixed,scale:all|thr:D2,D cut 2 +1 + factor 4 on all subscales,0,0,train
+S1-2-431,2,mixed,scale:all|thr:D3,D cut 3 -1 + factor 1 on all subscales,0,0,cross
+S1-2-432,2,mixed,scale:all|thr:S3,S cut 3 +2 + factor 4 on all subscales,0,0,train
+S1-2-433,2,mixed,scale:all|thr:S4,S cut 4 +2 + factor 1 on all subscales,0,0,train
+S1-2-434,2,mixed,scale:all|thr:D3,D cut 3 +2 + factor 4 on all subscales,0,0,cross
+S1-2-435,2,mixed,scale:all|thr:S3,S cut 3 +1 + factor 1 on all subscales,0,0,train
+S1-2-436,2,mixed,scale:all|thr:S4,S cut 4 +2 + factor 4 on all subscales,0,0,train
+S1-2-437,2,mixed,scale:all|thr:A1,A cut 1 +1 + factor 1 on all subscales,0,0,cross
+S1-2-438,2,mixed,scale:all|thr:S2,S cut 2 +2 + factor 1 on all subscales,0,0,train
+S1-2-439,2,mixed,scale:all|thr:D4,D cut 4 +1 + factor 1 on all subscales,0,0,train
+S1-2-440,2,mixed,scale:all|thr:D2,D cut 2 +1 + factor 1 on all subscales,0,0,train
+S1-2-441,2,mixed,scale:all|thr:A4,A cut 4 +1 + factor 1 on all subscales,0,0,cross
+S1-2-442,2,mixed,scale:all|thr:A3,A cut 3 +2 + factor 4 on all subscales,0,0,cross
+S1-2-443,2,mixed,scale:all|thr:D1,D cut 1 +2 + factor 4 on all subscales,0,0,train
+S1-2-444,2,mixed,scale:all|thr:D2,D cut 2 +2 + factor 4 on all subscales,0,0,train
+S1-2-445,2,mixed,scale:all|thr:S3,S cut 3 -2 + factor 1 on all subscales,0,0,train
+S1-2-446,2,mixed,scale:all|thr:D1,D cut 1 +1 + factor 1 on all subscales,0,0,train
+S1-2-447,2,mixed,scale:all|thr:A3,A cut 3 -2 + factor 1 on all subscales,0,0,cross
+S1-2-448,2,mixed,scale:all|thr:S1,S cut 1 -2 + factor 1 on all subscales,0,0,train
+S1-2-449,2,mixed,scale:all|thr:D4,D cut 4 +1 + factor 4 on all subscales,0,0,train
+S1-2-450,2,mixed,scale:all|thr:S3,S cut 3 -2 + factor 4 on all subscales,0,0,train
+S1-2-451,2,mixed,scale:all|thr:D1,D cut 1 +1 + factor 4 on all subscales,0,0,train
+S1-2-452,2,mixed,scale:all|thr:A3,A cut 3 -2 + factor 4 on all subscales,0,0,cross
+S1-2-453,2,mixed,scale:all|thr:S3,S cut 3 +1 + factor 4 on all subscales,0,0,train
+S1-2-454,2,mixed,scale:all|thr:D1,D cut 1 -2 + factor 1 on all subscales,0,0,train
+S1-2-455,2,mixed,scale:all|thr:A4,A cut 4 +1 + factor 4 on all subscales,0,0,cross
+S1-2-456,2,mixed,scale:all|thr:D2,D cut 2 -2 + factor 4 on all subscales,0,0,train
+S1-2-457,2,mixed,scale:all|thr:D3,D cut 3 -1 + factor 4 on all subscales,0,0,cross
+S1-2-458,2,threshold,thr:D1|thr:S4,D cut 1 +1 + S cut 4 -2,0,0,train
+S1-2-459,2,threshold,thr:D3|thr:D4,D cut 3 +2 + D cut 4 +1,0,0,cross
+S1-2-460,2,threshold,thr:S3|thr:S4,S cut 3 -2 + S cut 4 +2,0,0,train
+S1-2-461,2,threshold,thr:A1|thr:D2,D cut 2 +2 + A cut 1 -2,0,0,cross
+S1-2-462,2,threshold,thr:A3|thr:A4,A cut 3 -1 + A cut 4 -2,0,0,eval
+S1-2-463,2,threshold,thr:A2|thr:S2,A cut 2 +1 + S cut 2 +2,0,0,train
+S1-2-464,2,threshold,thr:A4|thr:D3,D cut 3 +2 + A cut 4 +2,0,0,eval
+S1-2-465,2,threshold,thr:A4|thr:D4,D cut 4 +1 + A cut 4 +2,0,0,cross
+S1-2-466,2,threshold,thr:A1|thr:S3,A cut 1 +1 + S cut 3 -2,0,0,cross
+S1-2-467,2,threshold,thr:A1|thr:D3,D cut 3 -1 + A cut 1 +1,0,0,eval
+S1-2-468,2,threshold,thr:A2|thr:S1,A cut 2 +2 + S cut 1 +2,0,0,train
+S1-2-469,2,threshold,thr:A2|thr:S2,A cut 2 +1 + S cut 2 -1,0,0,train
+S1-2-470,2,threshold,thr:A4|thr:S3,A cut 4 +2 + S cut 3 +2,0,0,cross
+S1-2-471,2,threshold,thr:A4|thr:S3,A cut 4 +2 + S cut 3 -2,0,0,cross
+S1-2-472,2,threshold,thr:S1|thr:S2,S cut 1 -1 + S cut 2 +2,0,0,train
+S1-2-473,2,threshold,thr:A1|thr:A3,A cut 1 -2 + A cut 3 -2,0,0,eval
+S1-2-474,2,threshold,thr:D3|thr:S2,D cut 3 -2 + S cut 2 -2,0,0,cross
+S1-2-475,2,threshold,thr:A4|thr:D2,D cut 2 +2 + A cut 4 +1,0,0,cross
+S1-2-476,2,threshold,thr:A3|thr:S4,A cut 3 -1 + S cut 4 -2,0,0,cross
+S1-2-477,2,threshold,thr:A2|thr:D2,D cut 2 +2 + A cut 2 +2,0,0,train
+S1-2-478,2,threshold,thr:S1|thr:S3,S cut 1 +2 + S cut 3 +2,0,0,train
+S1-2-479,2,threshold,thr:D1|thr:D3,D cut 1 -2 + D cut 3 +2,0,0,cross
+S1-2-480,2,threshold,thr:A2|thr:A4,A cut 2 +1 + A cut 4 +2,0,0,cross
+S1-2-481,2,threshold,thr:A3|thr:S3,A cut 3 -1 + S cut 3 +1,0,0,cross
+S1-2-482,2,threshold,thr:D1|thr:D4,D cut 1 +1 + D cut 4 +1,0,0,train
+S1-2-483,2,threshold,thr:D3|thr:D4,D cut 3 -2 + D cut 4 -2,0,0,cross
+S1-2-484,2,threshold,thr:D1|thr:S3,D cut 1 +2 + S cut 3 -2,0,0,train
+S1-2-485,2,threshold,thr:D4|thr:S1,D cut 4 +2 + S cut 1 -1,0,0,train
+S1-2-486,2,threshold,thr:A2|thr:S1,A cut 2 +2 + S cut 1 -2,0,0,train
+S1-2-487,2,threshold,thr:D4|thr:S4,D cut 4 -2 + S cut 4 +1,0,0,train
+S1-2-488,2,threshold,thr:D2|thr:S2,D cut 2 +1 + S cut 2 +2,0,0,train
+S1-2-489,2,threshold,thr:A3|thr:D2,D cut 2 -2 + A cut 3 -1,0,0,cross
+S1-2-490,2,threshold,thr:A4|thr:D1,D cut 1 -2 + A cut 4 +2,0,0,cross
+S1-2-491,2,threshold,thr:D3|thr:S3,D cut 3 -1 + S cut 3 +2,0,0,cross
+S1-2-492,2,threshold,thr:D4|thr:S4,D cut 4 +2 + S cut 4 -2,0,0,train
+S1-2-493,2,threshold,thr:A3|thr:D1,D cut 1 +1 + A cut 3 -1,0,0,cross
+S1-2-494,2,threshold,thr:A3|thr:S3,A cut 3 -2 + S cut 3 -2,0,0,cross
+S1-2-495,2,threshold,thr:A2|thr:S3,A cut 2 +2 + S cut 3 +2,0,0,train
+S1-2-496,2,threshold,thr:A4|thr:D2,D cut 2 +2 + A cut 4 -2,0,0,cross
+S1-2-497,2,threshold,thr:A4|thr:D2,D cut 2 -2 + A cut 4 +2,0,0,cross
+S1-2-498,2,threshold,thr:D1|thr:S3,D cut 1 +2 + S cut 3 +1,0,0,train
+S1-2-499,2,threshold,thr:D2|thr:S4,D cut 2 +1 + S cut 4 -2,0,0,train
+S1-2-500,2,threshold,thr:A3|thr:S1,A cut 3 -2 + S cut 1 +2,0,0,cross

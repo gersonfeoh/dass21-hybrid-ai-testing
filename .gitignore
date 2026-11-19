@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+s2/node_modules/
+s2/.stryker-tmp/
+s2/src/
+s2/reports/
+data/*.bin
+data/*.out
+data/*.out.ids.json
+results_llm/
+s2_private.zip
