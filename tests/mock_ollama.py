@@ -42,4 +42,5 @@ class H(BaseHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    HTTPServer(('127.0.0.1', 11435), H).serve_forever()
+    import sys
+    HTTPServer(('127.0.0.1', int(sys.argv[1]) if len(sys.argv) > 1 else 11435), H).serve_forever()
