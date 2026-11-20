@@ -1,21 +1,32 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: "Hybrid AI-driven testing and verification framework for DASS-21 screening and triage engines: experiment code and data"
+title: "dass21-hybrid-ai-testing: experiment code, data and logs of a hybrid AI-driven testing and verification framework for a DASS-21 screening and triage engine"
 authors:
   - family-names: Feoh
     given-names: Gerson
+    affiliation: Universitas Dhyana Pura
     orcid: "https://orcid.org/0000-0003-0511-4798"
   - family-names: Primatanti
     given-names: Putu Asih
+    affiliation: Universitas Dhyana Pura
     orcid: "https://orcid.org/0009-0005-1456-7993"
   - family-names: Widarnandana
     given-names: I Gde Dhika
+    affiliation: Universitas Dhyana Pura
     orcid: "https://orcid.org/0009-0009-1024-466X"
   - family-names: S. U.
     given-names: Muthunagai
+    affiliation: Vellore Institute of Technology
   - family-names: A.
     given-names: Vineth
+    affiliation: Vellore Institute of Technology
 license: MIT
 repository-code: "https://github.com/gersonfeoh/dass21-hybrid-ai-testing"
-version: "0.9.0"
+keywords:
+  - DASS-21
+  - mutation testing
+  - SMT verification
+  - search-based software testing
+  - LLM-RAG
+version: "1.0.0"
 date-released: "2026-11-20"
