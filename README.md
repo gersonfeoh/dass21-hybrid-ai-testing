@@ -7,9 +7,12 @@ Experiment code, data, and logs for the second article of the DASS-21 research l
 is validated by a deterministic oracle.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gersonfeoh/dass21-hybrid-ai-testing/blob/main/colab/DASS21_LLM_RAG_Colab.ipynb)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24385583.svg)](https://doi.org/10.5281/zenodo.24385583)
 
 Status (20 November 2026): every component has been run. The LLM-RAG experiment (B4, B5, A1, A3) was run with the
-Colab notebook on a T4 GPU (Ollama 0.40.16, qwen2.5:7b-instruct Q4_K_M, bge-m3); its logs are in `results_llm/`. The first article (lattice-aware boundary and mutation testing, JUTI) and its reference engine are
+Colab notebook on a T4 GPU (Ollama 0.40.16, qwen2.5:7b-instruct Q4_K_M, bge-m3); its logs are in `results_llm/`.
+Release v1.0.0, used for every result of the article, is archived on Zenodo: https://doi.org/10.5281/zenodo.24385584
+(all versions: https://doi.org/10.5281/zenodo.24385583). The first article (lattice-aware boundary and mutation testing, JUTI) and its reference engine are
 archived at https://doi.org/10.5281/zenodo.24131491; this repository reuses that engine in `article1/`.
 
 ## Main results (S1 = specification-level mutants, S2 = StrykerJS mutants of the platform code)
