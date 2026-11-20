@@ -14,7 +14,7 @@ evaluated as a baseline.
 Status (20 November 2026): every component has been run. The LLM-RAG experiment (B4, B5, A1, A3) was run with the
 Colab notebook on a T4 GPU (Ollama 0.40.16, qwen2.5:7b-instruct Q4_K_M, bge-m3); its logs are in `results_llm/`.
 Release v1.0.0, used for every result of the article, is archived on Zenodo: https://doi.org/10.5281/zenodo.24385584
-(all versions: https://doi.org/10.5281/zenodo.24385583). The first article (lattice-aware boundary and mutation testing, JUTI) and its reference engine are
+(all versions: https://doi.org/10.5281/zenodo.24385583). The first article (lattice-aware boundary and mutation testing) and its reference engine are
 archived at https://doi.org/10.5281/zenodo.24131491; this repository reuses that engine in `article1/`.
 
 ## Main results (S1 = specification-level mutants, S2 = StrykerJS mutants of the platform code)
