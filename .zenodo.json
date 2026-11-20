@@ -1,0 +1,53 @@
+{
+ "title": "dass21-hybrid-ai-testing: experiment code, data and logs of a hybrid AI-driven testing and verification framework (Z3, NSGA-II, RF/XGBoost, LLM-RAG) for a DASS-21 screening and triage engine",
+ "upload_type": "software",
+ "version": "1.0.0",
+ "access_right": "open",
+ "license": "MIT",
+ "language": "eng",
+ "description": "<p>Experiment code, data and logs accompanying the article <em>Hybrid AI-Driven Testing and Verification Framework for DASS-21 Screening and Triage Engines</em> (manuscript in preparation). The framework combines SMT verification of safety invariants with Z3, a multi-objective genetic algorithm (NSGA-II) with a lattice-aware genotype under solver-derived safety obligations, fault-family diagnosis with Random Forest and XGBoost, and an LLM-RAG test proposer (qwen2.5:7b-instruct with bge-m3, served by Ollama) whose every output is validated by a deterministic oracle.</p><p>Included: specification-level mutant pool (165 first-order, 500 second-order), Z3 models and results, 150 main GA runs and the pilot, evaluation and statistics (Mann-Whitney U, Vargha-Delaney A12, Holm), diagnosis results, StrykerJS configuration and labels for code-level mutants, the full LLM-RAG log (372 responses, prompts, tokens, latency), validated tests, 90 GA runs with LLM tests, and a Google Colab notebook.</p><p>All inputs are synthetic response vectors; no participant data are included. The production source code of the platform (S2 module) and its StrykerJS report are not part of this archive. The results are software testing results and are not a clinical validation of DASS-21 or of the triage rules.</p>",
+ "creators": [
+  {
+   "name": "Feoh, Gerson",
+   "affiliation": "Universitas Dhyana Pura",
+   "orcid": "0000-0003-0511-4798"
+  },
+  {
+   "name": "Primatanti, Putu Asih",
+   "affiliation": "Universitas Dhyana Pura",
+   "orcid": "0009-0005-1456-7993"
+  },
+  {
+   "name": "Widarnandana, I Gde Dhika",
+   "affiliation": "Universitas Dhyana Pura",
+   "orcid": "0009-0009-1024-466X"
+  },
+  {
+   "name": "S. U., Muthunagai",
+   "affiliation": "Vellore Institute of Technology"
+  },
+  {
+   "name": "A., Vineth",
+   "affiliation": "Vellore Institute of Technology"
+  }
+ ],
+ "keywords": [
+  "DASS-21",
+  "mutation testing",
+  "SMT verification",
+  "Z3",
+  "search-based software testing",
+  "NSGA-II",
+  "fault diagnosis",
+  "LLM-RAG",
+  "test oracle"
+ ],
+ "related_identifiers": [
+  {
+   "identifier": "10.5281/zenodo.24131491",
+   "relation": "references",
+   "scheme": "doi",
+   "resource_type": "software"
+  }
+ ]
+}
