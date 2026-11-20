@@ -1,10 +1,12 @@
-# Hybrid AI-Driven Testing and Verification Framework for DASS-21 Screening and Triage Engines
+# dass21-hybrid-ai-testing
 
-Experiment code, data, and logs for the second article of the DASS-21 research line at Universitas Dhyana Pura
-(with Vellore Institute of Technology). The framework combines (i) SMT verification of safety invariants with Z3,
-(ii) a multi-objective genetic algorithm (NSGA-II) with a lattice-aware genotype under hard safety constraints,
-(iii) fault-family diagnosis with Random Forest and XGBoost, and (iv) an LLM-RAG test proposer whose every output
-is validated by a deterministic oracle.
+Experiment code, data, and logs for the article *SMT-Guided, Lattice-Aware Search-Based Testing of a DASS-21
+Screening and Triage Engine, with an Oracle-Subordinate LLM-RAG Baseline*, the second article of the DASS-21 research
+line at Universitas Dhyana Pura (with Vellore Institute of Technology). The approach combines (i) SMT verification of
+safety invariants with Z3 and (ii) a multi-objective genetic algorithm (NSGA-II) with a lattice-aware genotype under
+hard safety constraints derived by the solver. (iii) Fault-family diagnosis with Random Forest and XGBoost is a
+supporting analysis, and (iv) an LLM-RAG test proposer whose every output is validated by a deterministic oracle is
+evaluated as a baseline.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gersonfeoh/dass21-hybrid-ai-testing/blob/main/colab/DASS21_LLM_RAG_Colab.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24385583.svg)](https://doi.org/10.5281/zenodo.24385583)
