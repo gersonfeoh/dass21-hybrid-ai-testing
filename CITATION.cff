@@ -22,6 +22,7 @@ authors:
     affiliation: Vellore Institute of Technology
 license: MIT
 repository-code: "https://github.com/gersonfeoh/dass21-hybrid-ai-testing"
+doi: "10.5281/zenodo.24385583"
 keywords:
   - DASS-21
   - mutation testing
