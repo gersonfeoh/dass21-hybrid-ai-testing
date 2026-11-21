@@ -21,6 +21,7 @@ authors:
   - family-names: A.
     given-names: Vineth
     affiliation: Vellore Institute of Technology
+    orcid: "https://orcid.org/0009-0009-2977-3123"
 license: MIT
 repository-code: "https://github.com/gersonfeoh/dass21-hybrid-ai-testing"
 doi: "10.5281/zenodo.24385583"
